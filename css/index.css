@@ -242,13 +242,15 @@ div {
 	}
 }
 
-.jingxi {
+#jingxi {
 	clear: both;
 	height: auto;
 	color: #fff;
 	cursor: pointer;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
+	z-index: 999;
 }
 
 .box3 {

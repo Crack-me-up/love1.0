@@ -24,11 +24,12 @@ var str = "亲爱的漫漫："
 		}
 	}
 	
-	$(".jingxi").click(function(){
+	$("#jingxi").click(function(){
+		console.log(1)
 		$(".box4").animate({
 			"opacity": 0
 		},2000)
-		$(".jingxi").css("display","none")
+		$("#jingxi").css("display","none")
 		$(".main").animate({
 			"opacity": 1
 		},3000)
